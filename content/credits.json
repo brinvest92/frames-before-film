@@ -1,0 +1,203 @@
+{
+  "groups": [
+    {
+      "film": "School science-fair announcement (Karnival Sains 2027)",
+      "note": "Also heard in the hook-test films and the English version.",
+      "items": [
+        { "use": "music", "title": "bird on a fence song - 120bpm", "creator": "elaineaeris", "source": "Freesound", "url": "https://freesound.org/people/elaineaeris/sounds/505686", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Rocket Launch", "creator": "Jarusca", "source": "Freesound", "url": "https://freesound.org/people/Jarusca/sounds/521377", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Flash and Quicksilver", "creator": "oscaraudiogeek", "source": "Freesound", "url": "https://freesound.org/people/oscaraudiogeek/sounds/333515", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Bundled sound effects (whoosh, pop, impact-bass-1, riser, whoosh-cinematic)", "creator": "", "source": "HyperFrames bundled library (Pixabay)", "url": "", "licence": "Pixabay Content License" }
+      ]
+    },
+    {
+      "film": "Water-bottle launch, film A",
+      "note": "Published without its music.",
+      "items": [
+        { "use": "effect", "title": "Clock Tick (Tik Tak)", "creator": "KaosMakinesi", "source": "Freesound", "url": "https://freesound.org/people/KaosMakinesi/sounds/403001", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "fpwinebottle_pour_in.wav", "creator": "jesuswasasoundboy", "source": "Freesound", "url": "https://freesound.org/people/jesuswasasoundboy/sounds/527199", "licence": "CC0 1.0" },
+        { "use": "ambience", "title": "Cicadas", "creator": "dethrok", "source": "Freesound", "url": "https://freesound.org/people/dethrok/sounds/272168", "licence": "CC0 1.0" },
+        { "use": "ambience", "title": "crickets night short nice some skyline Montreal, Canada.flac", "creator": "kyles", "source": "Freesound", "url": "https://freesound.org/people/kyles/sounds/455685", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Mixing beverage with ice in a metal cup", "creator": "o_charlyv", "source": "Freesound", "url": "https://freesound.org/people/o_charlyv/sounds/706047", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "3 Popping Pops", "creator": "wubitog", "source": "Freesound", "url": "https://freesound.org/people/wubitog/sounds/188381", "licence": "CC0 1.0" }
+      ]
+    },
+    {
+      "film": "Water-bottle launch, film B",
+      "note": "",
+      "items": [
+        { "use": "music", "title": "44 beat kick snare dry 120bpm stick-02.wav", "creator": "@realdavidfloat", "source": "Freesound", "url": "https://freesound.org/people/@realdavidfloat/sounds/418993", "licence": "CC0 1.0" },
+        { "use": "music", "title": "44 beat kick snare dry 120bpm stick-03.wav", "creator": "@realdavidfloat", "source": "Freesound", "url": "https://freesound.org/people/@realdavidfloat/sounds/418992", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Acoustic Floor Tom Vintage Hip Hop", "creator": "lennartgreen", "source": "Freesound", "url": "https://freesound.org/people/lennartgreen/sounds/566894", "licence": "CC0 1.0" },
+        { "use": "ambience", "title": "Short room tone from a medium sized house room", "creator": "jmbphilmes", "source": "Freesound", "url": "https://freesound.org/people/jmbphilmes/sounds/198944", "licence": "CC0 1.0" }
+      ]
+    },
+    {
+      "film": "Water-bottle launch, film C",
+      "note": "",
+      "items": [
+        { "use": "ambience", "title": "room tone large empty bass hum rumble mosque.flac", "creator": "kyles", "source": "Freesound", "url": "https://freesound.org/people/kyles/sounds/451616", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Megabottle - 30 - Audio - Audio 30.wav", "creator": "sjbcjb", "source": "Freesound", "url": "https://freesound.org/people/sjbcjb/sounds/120318", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "1 Tick soft", "creator": "Duisterwho", "source": "Freesound", "url": "https://freesound.org/people/Duisterwho/sounds/643962", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Mixing beverage with ice in a metal cup", "creator": "o_charlyv", "source": "Freesound", "url": "https://freesound.org/people/o_charlyv/sounds/706047", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Boom_01.wav", "creator": "Faulkin", "source": "Freesound", "url": "https://freesound.org/people/Faulkin/sounds/336487", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "24.wav", "creator": "adcbicycle", "source": "Freesound", "url": "https://freesound.org/people/adcbicycle/sounds/13952", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "vacuum flask - twisting cap 01.wav", "creator": "Anthousai", "source": "Freesound", "url": "https://freesound.org/people/Anthousai/sounds/448104", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "vacuum flask - twisting cap 02.wav", "creator": "Anthousai", "source": "Freesound", "url": "https://freesound.org/people/Anthousai/sounds/448103", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "vacuum flask - placing cap 01.wav", "creator": "Anthousai", "source": "Freesound", "url": "https://freesound.org/people/Anthousai/sounds/448097", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "16.wav", "creator": "adcbicycle", "source": "Freesound", "url": "https://freesound.org/people/adcbicycle/sounds/13944", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "23.wav", "creator": "adcbicycle", "source": "Freesound", "url": "https://freesound.org/people/adcbicycle/sounds/13951", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "17.wav", "creator": "adcbicycle", "source": "Freesound", "url": "https://freesound.org/people/adcbicycle/sounds/13945", "licence": "CC0 1.0" }
+      ]
+    },
+    {
+      "film": "Cartoon short, film C (the shadow)",
+      "note": "",
+      "items": [
+        { "use": "ambience", "title": "Crickets Night 2", "creator": "PhilllChabbb", "source": "Freesound", "url": "https://freesound.org/people/PhilllChabbb/sounds/245834", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Frame drum_oneshot_RAW_03.wav", "creator": "cabled_mess", "source": "Freesound", "url": "https://freesound.org/people/cabled_mess/sounds/345620", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Frame drum_oneshot_RAW_05.wav", "creator": "cabled_mess", "source": "Freesound", "url": "https://freesound.org/people/cabled_mess/sounds/345625", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Frame drum_oneshot_RAW_08.wav", "creator": "cabled_mess", "source": "Freesound", "url": "https://freesound.org/people/cabled_mess/sounds/345628", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Frame drum_oneshot_RAW_13.wav", "creator": "cabled_mess", "source": "Freesound", "url": "https://freesound.org/people/cabled_mess/sounds/345636", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Frame drum_oneshot_RAW_15.wav", "creator": "cabled_mess", "source": "Freesound", "url": "https://freesound.org/people/cabled_mess/sounds/345635", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Frame drum_oneshot_RAW_16.wav", "creator": "cabled_mess", "source": "Freesound", "url": "https://freesound.org/people/cabled_mess/sounds/345631", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "rebana4.wav", "creator": "rivv3t", "source": "Freesound", "url": "https://freesound.org/people/rivv3t/sounds/88594", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "super low bass hit kick drum wAv", "creator": "phluidbox", "source": "Freesound", "url": "https://freesound.org/people/phluidbox/sounds/339437", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Wood Pat 05", "creator": "chaosportal", "source": "Freesound", "url": "https://freesound.org/people/chaosportal/sounds/137086", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "slide whistle.wav", "creator": "jcookvoice", "source": "Freesound", "url": "https://freesound.org/people/jcookvoice/sounds/586529", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Baby Chicks Chirp.boaay", "creator": "BOAAY", "source": "Freesound", "url": "https://freesound.org/people/BOAAY/sounds/519193", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "hiss3.wav", "creator": "Reitanna", "source": "Freesound", "url": "https://freesound.org/people/Reitanna/sounds/343928", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Cat Yowl 5.wav", "creator": "HenKonen", "source": "Freesound", "url": "https://freesound.org/people/HenKonen/sounds/682082", "licence": "CC0 1.0" },
+        { "use": "music", "title": "short ukulele loop by rea.mp3", "creator": "reasanka", "source": "Freesound", "url": "https://freesound.org/people/reasanka/sounds/383023", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Bundled sound effects (whoosh)", "creator": "", "source": "HyperFrames bundled library (Pixabay)", "url": "", "licence": "Pixabay Content License" }
+      ]
+    },
+    {
+      "film": "Cartoon short, film B (the zero)",
+      "note": "Published without its music.",
+      "items": [
+        { "use": "effect", "title": "Wood block hit", "creator": "thomasjaunism", "source": "Freesound", "url": "https://freesound.org/people/thomasjaunism/sounds/218460", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "wood block", "creator": "thomasjaunism", "source": "Freesound", "url": "https://freesound.org/people/thomasjaunism/sounds/218461", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Wood Block", "creator": "Sassaby", "source": "Freesound", "url": "https://freesound.org/people/Sassaby/sounds/533093", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "marble drop", "creator": "greenvwbeetle", "source": "Freesound", "url": "https://freesound.org/people/greenvwbeetle/sounds/240313", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Wood Pat 05", "creator": "chaosportal", "source": "Freesound", "url": "https://freesound.org/people/chaosportal/sounds/137086", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "wah wah sad trombone.wav", "creator": "kirbydx", "source": "Freesound", "url": "https://freesound.org/people/kirbydx/sounds/175409", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Xylophone - F#3 (Xylo_Medium_G3_ff_01_far.wav)", "creator": "sgossner", "source": "Freesound", "url": "https://freesound.org/people/sgossner/sounds/374703", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Xylophone - C4 (Xylo_Medium_C4_ff_01_far.wav)", "creator": "Samulis", "source": "Freesound", "url": "https://freesound.org/people/Samulis/sounds/374699", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Glass Marbles Rolling on Wood.wav", "creator": "Solar01", "source": "Freesound", "url": "https://freesound.org/people/Solar01/sounds/661650", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Snare roll long.wav", "creator": "HenKonen", "source": "Freesound", "url": "https://freesound.org/people/HenKonen/sounds/700830", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Raspberry", "creator": "9voltfan", "source": "Freesound", "url": "https://freesound.org/people/9voltfan/sounds/736457", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Boing Spring Mouth harp 04-20-13 4.wav", "creator": "pan14", "source": "Freesound", "url": "https://freesound.org/people/pan14/sounds/334032", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Boing Spring Mouth harp downward 1.wav", "creator": "pan14", "source": "Freesound", "url": "https://freesound.org/people/pan14/sounds/334031", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Cymbal.aif", "creator": "irjames", "source": "Freesound", "url": "https://freesound.org/people/irjames/sounds/78513", "licence": "CC0 1.0" }
+      ]
+    },
+    {
+      "film": "Science channel intro",
+      "note": "",
+      "items": [
+        { "use": "effect", "title": "Bundled sound effects (pop, whoosh-short, sparkle)", "creator": "", "source": "HyperFrames bundled library (Pixabay)", "url": "https://pixabay.com/sound-effects/", "licence": "Pixabay Content License" }
+      ]
+    },
+    {
+      "film": "Reading-campaign Reel",
+      "note": "",
+      "items": [
+        { "use": "music", "title": "Ukulele_Chill.wav", "creator": "larsn.wav", "source": "Freesound", "url": "https://freesound.org/people/larsn.wav/sounds/707067", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Page Turn", "creator": "davidbain", "source": "Freesound", "url": "https://freesound.org/people/davidbain/sounds/136778", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Clock ticking", "creator": "olver", "source": "Freesound", "url": "https://freesound.org/people/olver/sounds/130388", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Bundled sound effects (pop, whoosh-short)", "creator": "", "source": "HyperFrames bundled library (Pixabay)", "url": "", "licence": "Pixabay Content License" }
+      ]
+    },
+    {
+      "film": "Children's routine film, remade",
+      "note": "",
+      "items": [
+        { "use": "music", "title": "Ukulele short chorded melody", "creator": "el_boss", "source": "Freesound", "url": "https://freesound.org/people/el_boss/sounds/643566", "licence": "CC0 1.0" },
+        { "use": "music", "title": "s piano loop.flac", "creator": "arseniiv", "source": "Freesound", "url": "https://freesound.org/people/arseniiv/sounds/241862", "licence": "CC0 1.0" },
+        { "use": "ambience", "title": "Sparrows.wav", "creator": "piwilliwillski", "source": "Freesound", "url": "https://freesound.org/people/piwilliwillski/sounds/564487", "licence": "CC0 1.0" },
+        { "use": "ambience", "title": "Crickets Night 2", "creator": "PhilllChabbb", "source": "Freesound", "url": "https://freesound.org/people/PhilllChabbb/sounds/245834", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Toy car passing by.wav", "creator": "domestophonics", "source": "Freesound", "url": "https://freesound.org/people/domestophonics/sounds/420403", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Toy car rolling out.wav", "creator": "domestophonics", "source": "Freesound", "url": "https://freesound.org/people/domestophonics/sounds/420401", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Mallory_Lowe_003_jenga.wav", "creator": "mjl1551", "source": "Freesound", "url": "https://freesound.org/people/mjl1551/sounds/620026", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Wooden blocks falling.wav", "creator": "sophiehall3535", "source": "Freesound", "url": "https://freesound.org/people/sophiehall3535/sounds/245919", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "book pushin", "creator": "MasterSuite", "source": "Freesound", "url": "https://freesound.org/people/MasterSuite/sounds/667385", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Comforter Cloth Pass.wav", "creator": "RossBell", "source": "Freesound", "url": "https://freesound.org/people/RossBell/sounds/389417", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Door open close soft bathroom Saint John 191002.flac", "creator": "TRP", "source": "Freesound", "url": "https://freesound.org/people/TRP/sounds/573834", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Gentle Door Close.wav", "creator": "monochromerose0", "source": "Freesound", "url": "https://freesound.org/people/monochromerose0/sounds/619695", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Shower", "creator": "13GPanska_Stanek_Vojtech", "source": "Freesound", "url": "https://freesound.org/people/13GPanska_Stanek_Vojtech/sounds/371906", "licence": "CC0 1.0" }
+      ]
+    },
+    {
+      "film": "Workbook short, film A",
+      "note": "",
+      "items": [
+        { "use": "music", "title": "Cute Music", "creator": "Migfus20", "source": "Freesound", "url": "https://freesound.org/people/Migfus20/sounds/559832", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Putting a Large Book Down", "creator": "rylandbrooks", "source": "Freesound", "url": "https://freesound.org/people/rylandbrooks/sounds/387929", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Drop 2 books on table.wav", "creator": "usamah", "source": "Freesound", "url": "https://freesound.org/people/usamah/sounds/464994", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Page Turn 1", "creator": "mateusboga", "source": "Freesound", "url": "https://freesound.org/people/mateusboga/sounds/614079", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Page Turn 3", "creator": "mateusboga", "source": "Freesound", "url": "https://freesound.org/people/mateusboga/sounds/614083", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Page Turn 2", "creator": "mateusboga", "source": "Freesound", "url": "https://freesound.org/people/mateusboga/sounds/614080", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Pencil writing on paper (7 strokes)", "creator": "ani_music", "source": "Freesound", "url": "https://freesound.org/people/ani_music/sounds/632476", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Pencil writing on paper (8 strokes)", "creator": "ani_music", "source": "Freesound", "url": "https://freesound.org/people/ani_music/sounds/632475", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "marker-whiteboard-short08", "creator": "newagesoup", "source": "Freesound", "url": "https://freesound.org/people/newagesoup/sounds/335943", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Bundled sound effects (impact-bass-1, whoosh-short, pop, ping, chime, sparkle)", "creator": "", "source": "HyperFrames bundled library (Pixabay)", "url": "", "licence": "Pixabay Content License" },
+        { "use": "voice", "title": "Voice-over", "creator": "", "source": "recorded by the creator", "url": "", "licence": "used with permission" }
+      ]
+    },
+    {
+      "film": "Workbook short, film B",
+      "note": "",
+      "items": [
+        { "use": "music", "title": "bird on a fence song - 120bpm", "creator": "elaineaeris", "source": "Freesound", "url": "https://freesound.org/people/elaineaeris/sounds/505686", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "BookFallingFromShelf.wav", "creator": "nicholasdaryl", "source": "Freesound", "url": "https://freesound.org/people/nicholasdaryl/sounds/563457", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Water Splash", "creator": "alegemaate", "source": "Freesound", "url": "https://freesound.org/people/alegemaate/sounds/364700", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Drink Pouring.wav", "creator": "antwash", "source": "Freesound", "url": "https://freesound.org/people/antwash/sounds/118559", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Pencil writing on paper (7 strokes)", "creator": "ani_music", "source": "Freesound", "url": "https://freesound.org/people/ani_music/sounds/632476", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "marker-whiteboard-squeak02", "creator": "newagesoup", "source": "Freesound", "url": "https://freesound.org/people/newagesoup/sounds/335955", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Page Turn 02.wav", "creator": "MATRIXXX_", "source": "Freesound", "url": "https://freesound.org/people/MATRIXXX_/sounds/397549", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Page Turn 04.wav", "creator": "MATRIXXX_", "source": "Freesound", "url": "https://freesound.org/people/MATRIXXX_/sounds/397551", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Page Turn 03.wav", "creator": "MATRIXXX_", "source": "Freesound", "url": "https://freesound.org/people/MATRIXXX_/sounds/397550", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Bundled sound effects (whoosh, impact-bass-1, pop, ping, sparkle, chime)", "creator": "", "source": "HyperFrames bundled library (Pixabay)", "url": "", "licence": "Pixabay Content License" },
+        { "use": "voice", "title": "Voice-over", "creator": "", "source": "recorded by the creator", "url": "", "licence": "used with permission" }
+      ]
+    },
+    {
+      "film": "Workbook short, film C",
+      "note": "",
+      "items": [
+        { "use": "music", "title": "bird on a fence song - 120bpm", "creator": "elaineaeris", "source": "Freesound", "url": "https://freesound.org/people/elaineaeris/sounds/505686", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Book slamming shut 1", "creator": "zmobie", "source": "Freesound", "url": "https://freesound.org/people/zmobie/sounds/319809", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "book slam", "creator": "Mydo1", "source": "Freesound", "url": "https://freesound.org/people/Mydo1/sounds/198960", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Pencil_Circle_2.wav", "creator": "SholeColtis", "source": "Freesound", "url": "https://freesound.org/people/SholeColtis/sounds/683423", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "scribble.mp3", "creator": "indigosierra", "source": "Freesound", "url": "https://freesound.org/people/indigosierra/sounds/82610", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Underlining Stroke on Paper", "creator": "zembacraftworks", "source": "Freesound", "url": "https://freesound.org/people/zembacraftworks/sounds/428338", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Page Turn", "creator": "qubodup", "source": "Freesound", "url": "https://freesound.org/people/qubodup/sounds/442857", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Page Turn 02.wav", "creator": "MATRIXXX_", "source": "Freesound", "url": "https://freesound.org/people/MATRIXXX_/sounds/397549", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "single-tick.wav", "creator": "DeltaCode", "source": "Freesound", "url": "https://freesound.org/people/DeltaCode/sounds/668355", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Bundled sound effects (pop, ping, sparkle, chime, whoosh-short)", "creator": "", "source": "HyperFrames bundled library (Pixabay)", "url": "", "licence": "Pixabay Content License" },
+        { "use": "voice", "title": "Voice-over", "creator": "", "source": "recorded by the creator", "url": "", "licence": "used with permission" }
+      ]
+    },
+    {
+      "film": "Showreel",
+      "note": "",
+      "items": [
+        { "use": "music", "title": "montage.wav", "creator": "wi-photos", "source": "Freesound", "url": "https://freesound.org/people/wi-photos/sounds/484609", "licence": "CC0 1.0" }
+      ]
+    },
+    {
+      "film": "Brand kit logo animation",
+      "note": "",
+      "items": [
+        { "use": "effect", "title": "Pop Sound", "creator": "ConarB13", "source": "Freesound", "url": "https://freesound.org/people/ConarB13/sounds/401542", "licence": "CC0 1.0" },
+        { "use": "effect", "title": "Kalimba C2", "creator": "dvdfu", "source": "Freesound", "url": "https://freesound.org/people/dvdfu/sounds/536550", "licence": "CC0 1.0" }
+      ]
+    }
+  ],
+  "attributionRequired": [],
+  "unsure": [
+    "Apart from the children's routine film (its records say every Freesound page was checked) and the track \"bird on a fence song - 120bpm\" (page checked), the CC0 licences listed for Freesound sounds are the ones the Openverse search reported when the sounds were downloaded; the records do not show them being confirmed on the Freesound pages, and nothing was fetched to confirm them now.",
+    "The bundled HyperFrames effects are credited as a library: the records name Pixabay and the Pixabay Content License but give no creator or page for any individual effect."
+  ]
+}

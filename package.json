@@ -1,0 +1,15 @@
+{
+  "name": "frames-before-film-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The Frames Before Film course, prompt library and showcase. A static site with no dependencies.",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs && node tools/serve.mjs",
+    "sync": "node tools/sync.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

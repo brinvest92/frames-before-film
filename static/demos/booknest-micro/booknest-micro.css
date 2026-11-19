@@ -1,0 +1,503 @@
+/* ==========================================================================
+   BookNest micro-interactions v1
+   Four small moves: Borrow button press, loading spinner, success tick,
+   book list to book detail. BookNest and its screens are invented for a sample.
+
+   Every duration and curve is a token below, and every move is listed again
+   in a comment above the rule that makes it. Change a token, not a rule.
+   ========================================================================== */
+
+:root {
+  /* colour */
+  --bn-teal: #0fa3a3;
+  --bn-teal-deep: #0b7f80;   /* the button's edge */
+  --bn-teal-tint: #cfeeea;
+  --bn-navy: #14213d;
+  --bn-sun: #ffc83d;
+  --bn-sun-tint: #ffedb8;
+  --bn-cream: #fff8ec;
+  --bn-muted: #4f5a72;
+
+  /* curves */
+  --bn-ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);       /* arriving, answering a touch */
+  --bn-ease-in: cubic-bezier(0.4, 0, 1, 1);            /* leaving */
+  --bn-ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);    /* breathing, back and forth */
+  --bn-ease-move: cubic-bezier(0.2, 0, 0, 1);          /* travelling across the screen */
+  --bn-ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1); /* landing with a small overshoot */
+
+  /* durations */
+  --bn-press: 90ms;        /* button goes down */
+  --bn-release: 380ms;     /* button springs back */
+  --bn-ripple: 480ms;      /* ring leaves the button */
+  --bn-spin: 1200ms;       /* one turn of the spinner */
+  --bn-breathe: 1200ms;    /* spinner arc grows, then the same again to shrink */
+  --bn-pop: 360ms;         /* tick disc lands */
+  --bn-draw: 260ms;        /* tick is drawn */
+  --bn-burst: 420ms;       /* rays leave the tick */
+  --bn-move: 420ms;        /* cover and title travel from list to detail */
+  --bn-leave: 150ms;       /* the list goes */
+  --bn-arrive: 240ms;      /* the detail's own content comes */
+}
+
+/* --------------------------------------------------------------------------
+   1. Borrow button
+   press     face moves down 4px                 90ms   ease-out
+   release   face returns to 0                   380ms  spring (overshoots about 0.6px)
+   release   ring grows from the centre, 0 to 1,
+             and fades 0.35 to 0                 480ms  ease-out
+   The edge under the face does not move: the face sinks into it.
+   -------------------------------------------------------------------------- */
+.bn-btn {
+  position: relative;
+  display: inline-block;
+  min-width: 240px;
+  height: 70px;                 /* 64 face + 6 edge */
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.bn-btn__edge {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 6px;
+  height: 64px;
+  border-radius: 22px;
+  background: var(--bn-teal-deep);
+  box-shadow: 0 16px 24px -6px rgba(15, 163, 163, 0.45);
+}
+.bn-btn__face {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 64px;
+  padding: 0 28px;
+  border-radius: 22px;
+  background: var(--bn-teal);
+  color: var(--bn-navy);
+  font-weight: 800;
+  font-size: 21px;
+  letter-spacing: -0.01em;
+  overflow: hidden;             /* keeps the ring inside the face */
+  transform: translateY(0);
+  transition: transform var(--bn-release) var(--bn-ease-spring);
+}
+.bn-btn__face svg {
+  width: 26px;
+  height: 26px;
+  flex: none;
+}
+.bn-btn__ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 280px;
+  height: 280px;
+  margin: -140px 0 0 -140px;
+  border-radius: 50%;
+  background: var(--bn-cream);
+  opacity: 0;
+  transform: scale(1);
+  pointer-events: none;
+  transition:
+    transform var(--bn-ripple) var(--bn-ease-out),
+    opacity var(--bn-ripple) var(--bn-ease-out);
+}
+.bn-btn:active .bn-btn__face,
+.bn-btn.is-pressed .bn-btn__face {
+  transform: translateY(4px);
+  transition: transform var(--bn-press) var(--bn-ease-out);
+}
+.bn-btn:active .bn-btn__ring,
+.bn-btn.is-pressed .bn-btn__ring {
+  opacity: 0.35;
+  transform: scale(0);
+  transition: none;             /* the ring is armed at once and let go on release */
+}
+.bn-btn:focus-visible .bn-btn__face {
+  outline: 3px solid var(--bn-navy);
+  outline-offset: 3px;
+}
+
+/* --------------------------------------------------------------------------
+   2. Loading spinner
+   turn      the whole spinner rotates 360deg    1200ms linear, repeats
+   breathe   the arc grows from 14% to 70% of the
+             ring, then shrinks back             1200ms each way, ease-in-out
+   appear    opacity 0 to 1, scale 0.6 to 1      180ms  ease-out   (add .is-on)
+   leave     opacity 1 to 0                      120ms  ease-in    (remove .is-on)
+   The yellow dot rides the head of the arc. Size it with font-size (1em = its width).
+   -------------------------------------------------------------------------- */
+.bn-spinner {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  font-size: 96px;
+  opacity: 0;
+  transform: scale(0.6);
+  transition:
+    opacity 120ms var(--bn-ease-in),
+    transform 120ms var(--bn-ease-in);
+}
+.bn-spinner.is-on {
+  opacity: 1;
+  transform: scale(1);
+  transition:
+    opacity 180ms var(--bn-ease-out),
+    transform 180ms var(--bn-ease-out);
+}
+.bn-spinner svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.bn-spinner__track {
+  fill: none;
+  stroke: var(--bn-teal-tint);
+  stroke-width: 6;
+}
+.bn-spinner__turn {
+  transform-origin: 24px 24px;
+  animation: bn-turn var(--bn-spin) linear infinite;
+}
+.bn-spinner__arc {
+  fill: none;
+  stroke: var(--bn-teal);
+  stroke-width: 6;
+  stroke-linecap: round;
+  /* the ring is 113.1 long (radius 18): the arc always ends at the head */
+  stroke-dasharray: 16 97.1;
+  stroke-dashoffset: -97.1;
+  animation: bn-breathe var(--bn-breathe) var(--bn-ease-in-out) infinite alternate;
+}
+.bn-spinner__head {
+  fill: var(--bn-sun);
+}
+@keyframes bn-turn {
+  to { transform: rotate(360deg); }
+}
+@keyframes bn-breathe {
+  from { stroke-dasharray: 16 97.1; stroke-dashoffset: -97.1; }
+  to   { stroke-dasharray: 79 34.1; stroke-dashoffset: -34.1; }
+}
+
+/* --------------------------------------------------------------------------
+   3. Success tick                       (add .is-done to play, remove to reset)
+   pop       disc scales 0 to 1                  360ms  spring
+   draw      tick stroke draws start to end      260ms  ease-out, starts at 180ms
+   burst     eight rays move out 14px and fade   420ms  ease-out, starts at 240ms
+   The pale ring is what waits in its place before the tick lands.
+   -------------------------------------------------------------------------- */
+.bn-tick {
+  position: relative;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  font-size: 96px;
+}
+.bn-tick svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.bn-tick__wait {
+  fill: none;
+  stroke: var(--bn-teal-tint);
+  stroke-width: 6;
+}
+.bn-tick__disc {
+  fill: var(--bn-teal);
+  transform-origin: 24px 24px;
+  transform: scale(0);
+}
+.bn-tick__mark {
+  fill: none;
+  stroke: var(--bn-navy);
+  stroke-width: 4.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 100 120;    /* the path has pathLength="100" */
+  stroke-dashoffset: 110;       /* 110, not 100: hides the round cap before the draw starts */
+}
+.bn-tick__rays {
+  fill: none;
+  stroke: var(--bn-sun);
+  stroke-width: 3.5;
+  stroke-linecap: round;
+  transform-origin: 24px 24px;
+  transform: scale(0.78);
+  opacity: 0;
+}
+.bn-tick.is-done .bn-tick__disc {
+  animation: bn-pop var(--bn-pop) var(--bn-ease-spring) both;
+}
+.bn-tick.is-done .bn-tick__mark {
+  animation: bn-draw var(--bn-draw) var(--bn-ease-out) 180ms both;
+}
+.bn-tick.is-done .bn-tick__rays {
+  animation: bn-burst var(--bn-burst) var(--bn-ease-out) 240ms both;
+}
+@keyframes bn-pop {
+  from { transform: scale(0); }
+  to   { transform: scale(1); }
+}
+@keyframes bn-draw {
+  from { stroke-dashoffset: 110; }
+  to   { stroke-dashoffset: 0; }
+}
+@keyframes bn-burst {
+  0%   { transform: scale(0.78); opacity: 1; }
+  60%  { opacity: 1; }
+  100% { transform: scale(1); opacity: 0; }
+}
+
+/* --------------------------------------------------------------------------
+   4. Book list to book detail
+   press     the tapped row scales to 0.98       90ms   ease-out
+   move      the cover travels and grows from
+             its place in the row (57 x 76) to
+             the detail (150 x 200)              420ms  move curve
+   move      the title travels with it and
+             grows 18px to 30px                  420ms  move curve
+   leave     the rest of the list fades out      150ms  ease-in
+   arrive    the detail's own content fades in
+             and rises 16px                      240ms  ease-out, starts at 180ms
+   back      the same moves in reverse           (same numbers)
+   Built on the View Transitions API: the script names the tapped row's cover
+   and title, then swaps the two views inside document.startViewTransition().
+   The screen has its own transition name, so only the screen changes, not the page.
+   Browsers without it swap at once and only play "arrive".
+   -------------------------------------------------------------------------- */
+.bn-screen {
+  position: relative;
+  width: 390px;
+  height: 844px;
+  overflow: hidden;
+  background: var(--bn-cream);
+  color: var(--bn-navy);
+  view-transition-name: bn-screen;   /* in an app where the screen is the whole page, use root instead */
+}
+.bn-list,
+.bn-detail {
+  position: absolute;
+  inset: 0;
+}
+.bn-list[hidden],
+.bn-detail[hidden] {
+  display: none;
+}
+.bn-list__title {
+  position: absolute;
+  left: 24px;
+  top: 96px;
+  margin: 0;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.015em;
+}
+.bn-row {
+  position: absolute;
+  left: 24px;
+  width: 342px;
+  height: 100px;
+  padding: 0;
+  border: 0;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 10px 24px rgba(20, 33, 61, 0.1);
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform var(--bn-release) var(--bn-ease-spring);
+}
+.bn-row:nth-of-type(1) { top: 172px; }
+.bn-row:nth-of-type(2) { top: 284px; }
+.bn-row:nth-of-type(3) { top: 396px; }
+.bn-row:nth-of-type(4) { top: 508px; }
+.bn-row:active,
+.bn-row.is-pressed {
+  transform: scale(0.98);
+  transition: transform var(--bn-press) var(--bn-ease-out);
+}
+.bn-row__cover {
+  position: absolute;
+  left: 14px;
+  top: 12px;
+  width: 57px;
+  height: 76px;
+  border-radius: 5px;
+  display: block;
+}
+.bn-row__title {
+  position: absolute;
+  left: 86px;
+  top: 24px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+.bn-row__meta {
+  position: absolute;
+  left: 86px;
+  top: 54px;
+  font-weight: 600;
+  font-size: 14.5px;
+  line-height: 20px;
+  color: var(--bn-muted);
+}
+.bn-detail__panel {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 390px;
+  height: 372px;
+  border-radius: 0 0 40px 40px;
+  background: var(--bn-teal);
+}
+.bn-detail__back {
+  position: absolute;
+  left: 20px;
+  top: 56px;
+  width: 46px;
+  height: 46px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 248, 236, 0.92);
+  cursor: pointer;
+}
+.bn-detail__back svg {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 11px;
+}
+.bn-detail__cover {
+  position: absolute;
+  left: 120px;
+  top: 118px;
+  width: 150px;
+  height: 200px;
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 22px 30px -10px rgba(20, 33, 61, 0.5);
+}
+.bn-detail__title {
+  position: absolute;
+  left: 24px;
+  top: 404px;
+  margin: 0;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  transform-origin: 0 0;
+}
+.bn-detail__chip {
+  position: absolute;
+  left: 24px;
+  top: 456px;
+  padding: 7px 14px;
+  border-radius: 12px;
+  background: var(--bn-teal-tint);
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+}
+.bn-detail__note {
+  position: absolute;
+  left: 24px;
+  top: 518px;
+  width: 342px;
+  height: 76px;
+  border-radius: 24px;
+  background: var(--bn-sun-tint);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+.bn-detail__note svg {
+  position: absolute;
+  left: 18px;
+  top: 22px;
+  width: 32px;
+  height: 32px;
+}
+.bn-detail__note span {
+  position: absolute;
+  left: 66px;
+  top: 17px;
+  width: 262px;
+}
+.bn-detail .bn-btn {
+  position: absolute;
+  left: 24px;
+  top: 716px;
+  width: 342px;
+}
+
+/* the travelling parts: the script puts these two names on the tapped row */
+.bn-shared-cover { view-transition-name: bn-cover; }
+.bn-shared-title { view-transition-name: bn-title; }
+::view-transition-group(bn-cover),
+::view-transition-group(bn-title) {
+  animation-duration: var(--bn-move);
+  animation-timing-function: var(--bn-ease-move);
+}
+::view-transition-old(bn-screen) {
+  animation: bn-leave var(--bn-leave) var(--bn-ease-in) both;
+}
+::view-transition-new(bn-screen) {
+  animation: bn-arrive var(--bn-arrive) var(--bn-ease-out) 180ms both;
+}
+@keyframes bn-leave {
+  to { opacity: 0; }
+}
+@keyframes bn-arrive {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+/* no View Transitions: the views swap at once and the new one arrives */
+.bn-no-vt .bn-list:not([hidden]),
+.bn-no-vt .bn-detail:not([hidden]) {
+  animation: bn-arrive var(--bn-arrive) var(--bn-ease-out) both;
+}
+
+/* --------------------------------------------------------------------------
+   Reduce motion: the states still change, nothing travels or bounces.
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .bn-btn__face,
+  .bn-btn__ring,
+  .bn-row,
+  .bn-spinner,
+  .bn-spinner.is-on {
+    transition: none;
+  }
+  .bn-spinner__turn { animation-duration: 2400ms; }
+  .bn-spinner__arc { animation: none; stroke-dasharray: 40 73.1; stroke-dashoffset: -73.1; }
+  .bn-tick.is-done .bn-tick__disc,
+  .bn-tick.is-done .bn-tick__mark,
+  .bn-tick.is-done .bn-tick__rays {
+    animation-duration: 1ms;
+    animation-delay: 0ms;
+  }
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+}

@@ -1,0 +1,2143 @@
+{
+ "films": {
+  "karnival": {
+   "src": "/media/video/karnival.mp4",
+   "poster": "/media/poster/karnival.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 15,
+   "audio": true,
+   "loop": false,
+   "title": "Event announcement",
+   "note": "",
+   "bytes": 796560
+  },
+  "aqua-a": {
+   "src": "/media/video/aqua-a.mp4",
+   "poster": "/media/poster/aqua-a.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 15,
+   "audio": true,
+   "loop": false,
+   "title": "Film A · a day and a night",
+   "note": "Shown without its music: the tune came from a catalogue that gives no licence text.",
+   "bytes": 572268
+  },
+  "aqua-b": {
+   "src": "/media/video/aqua-b.mp4",
+   "poster": "/media/poster/aqua-b.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 15,
+   "audio": true,
+   "loop": false,
+   "title": "Film B · type only",
+   "note": "",
+   "bytes": 511644
+  },
+  "aqua-c": {
+   "src": "/media/video/aqua-c.mp4",
+   "poster": "/media/poster/aqua-c.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 15,
+   "audio": true,
+   "loop": false,
+   "title": "Film C · 3D",
+   "note": "",
+   "bytes": 724150
+  },
+  "bijak-a": {
+   "src": "/media/video/bijak-a.mp4",
+   "poster": "/media/poster/bijak-a.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 20,
+   "audio": false,
+   "loop": false,
+   "title": "Film A · drawn characters",
+   "note": "Shown without sound: its music came from a catalogue that gives no licence text.",
+   "bytes": 481630
+  },
+  "bijak-b": {
+   "src": "/media/video/bijak-b.mp4",
+   "poster": "/media/poster/bijak-b.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 20,
+   "audio": false,
+   "loop": false,
+   "title": "Film B · whiteboard marker",
+   "note": "Shown without sound: its music came from a catalogue that gives no licence text.",
+   "bytes": 395211
+  },
+  "bijak-c": {
+   "src": "/media/video/bijak-c.mp4",
+   "poster": "/media/poster/bijak-c.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 20,
+   "audio": false,
+   "loop": false,
+   "title": "Film C · 3D numbers",
+   "note": "Shown without sound: its music came from a catalogue that gives no licence text.",
+   "bytes": 647510
+  },
+  "kartun-c": {
+   "src": "/media/video/kartun-c.mp4",
+   "poster": "/media/poster/kartun-c.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 30,
+   "audio": true,
+   "loop": false,
+   "title": "Film C · the shadow",
+   "note": "",
+   "bytes": 1396444
+  },
+  "kartun-a": {
+   "src": "/media/video/kartun-a.mp4",
+   "poster": "/media/poster/kartun-a.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 30,
+   "audio": false,
+   "loop": false,
+   "title": "Film A · the ant and the cracker",
+   "note": "Shown without sound: its music came from a catalogue that gives no licence text.",
+   "bytes": 1965927
+  },
+  "kartun-b": {
+   "src": "/media/video/kartun-b.mp4",
+   "poster": "/media/poster/kartun-b.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 30,
+   "audio": true,
+   "loop": false,
+   "title": "Film B · the zero",
+   "note": "Shown without its music: the tune came from a catalogue that gives no licence text.",
+   "bytes": 1423520
+  },
+  "reel": {
+   "src": "/media/video/reel.mp4",
+   "poster": "/media/poster/reel.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 10,
+   "audio": true,
+   "loop": false,
+   "title": "The poster, animated",
+   "note": "",
+   "bytes": 435305
+  },
+  "intro-wide": {
+   "src": "/media/video/intro-wide.mp4",
+   "poster": "/media/poster/intro-wide.jpg",
+   "w": 1280,
+   "h": 720,
+   "dur": 5,
+   "audio": true,
+   "loop": false,
+   "title": "Channel intro · 16:9",
+   "note": "",
+   "bytes": 237436
+  },
+  "intro-tall": {
+   "src": "/media/video/intro-tall.mp4",
+   "poster": "/media/poster/intro-tall.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 5,
+   "audio": true,
+   "loop": false,
+   "title": "Channel intro · 9:16",
+   "note": "",
+   "bytes": 246924
+  },
+  "routine": {
+   "src": "/media/video/routine.mp4",
+   "poster": "/media/poster/routine.jpg",
+   "w": 1280,
+   "h": 720,
+   "dur": 68,
+   "audio": true,
+   "loop": false,
+   "title": "Routine film · highlights",
+   "note": "A 68-second cut of a 150-second film.",
+   "bytes": 4015718
+  },
+  "book-b": {
+   "src": "/media/video/book-b.mp4",
+   "poster": "/media/poster/book-b.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 15,
+   "audio": true,
+   "loop": false,
+   "title": "Film B · a drawn experiment",
+   "note": "",
+   "bytes": 1386873
+  },
+  "book-c": {
+   "src": "/media/video/book-c.mp4",
+   "poster": "/media/poster/book-c.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 15,
+   "audio": true,
+   "loop": false,
+   "title": "Film C · a pen-drawn quiz",
+   "note": "",
+   "bytes": 1215971
+  },
+  "book-a": {
+   "src": "/media/video/book-a.mp4",
+   "poster": "/media/poster/book-a.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 15,
+   "audio": true,
+   "loop": false,
+   "title": "Film A · footage with overlays",
+   "note": "",
+   "bytes": 2329815
+  },
+  "hook-question": {
+   "src": "/media/video/hook-question.mp4",
+   "poster": "/media/poster/hook-question.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 15,
+   "audio": true,
+   "loop": false,
+   "title": "Hook 1 · a question",
+   "note": "",
+   "bytes": 805135
+  },
+  "hook-free": {
+   "src": "/media/video/hook-free.mp4",
+   "poster": "/media/poster/hook-free.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 15,
+   "audio": true,
+   "loop": false,
+   "title": "Hook 2 · the free offer",
+   "note": "",
+   "bytes": 816897
+  },
+  "hook-rocket": {
+   "src": "/media/video/hook-rocket.mp4",
+   "poster": "/media/poster/hook-rocket.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 15,
+   "audio": true,
+   "loop": false,
+   "title": "Hook 3 · the rocket speaks",
+   "note": "",
+   "bytes": 793996
+  },
+  "karnival-en": {
+   "src": "/media/video/karnival-en.mp4",
+   "poster": "/media/poster/karnival-en.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 15,
+   "audio": true,
+   "loop": false,
+   "title": "The English version",
+   "note": "",
+   "bytes": 791842
+  },
+  "showreel-wide": {
+   "src": "/media/video/showreel-wide.mp4",
+   "poster": "/media/poster/showreel-wide.jpg",
+   "w": 1280,
+   "h": 720,
+   "dur": 30,
+   "audio": true,
+   "loop": false,
+   "title": "Showreel · 16:9",
+   "note": "",
+   "bytes": 1683824
+  },
+  "showreel-tall": {
+   "src": "/media/video/showreel-tall.mp4",
+   "poster": "/media/poster/showreel-tall.jpg",
+   "w": 720,
+   "h": 1280,
+   "dur": 30,
+   "audio": true,
+   "loop": false,
+   "title": "Showreel · 9:16",
+   "note": "",
+   "bytes": 1802382
+  },
+  "stage-loop": {
+   "src": "/media/video/stage-loop.mp4",
+   "poster": "/media/poster/stage-loop.jpg",
+   "w": 1280,
+   "h": 720,
+   "dur": 19.2,
+   "audio": false,
+   "loop": true,
+   "title": "Stage loop · Ribbon Wave",
+   "note": "",
+   "bytes": 1403650
+  },
+  "logo-anim": {
+   "src": "/media/video/logo-anim.mp4",
+   "poster": "/media/poster/logo-anim.jpg",
+   "w": 1280,
+   "h": 720,
+   "dur": 3,
+   "audio": true,
+   "loop": false,
+   "title": "Logo animation",
+   "note": "",
+   "bytes": 101066
+  },
+  "micro-1": {
+   "src": "/media/video/micro-1.mp4",
+   "poster": "/media/poster/micro-1.jpg",
+   "w": 720,
+   "h": 720,
+   "dur": 3.07,
+   "audio": false,
+   "loop": true,
+   "title": "Borrow button",
+   "note": "",
+   "bytes": 27973
+  },
+  "micro-2": {
+   "src": "/media/video/micro-2.mp4",
+   "poster": "/media/poster/micro-2.jpg",
+   "w": 720,
+   "h": 720,
+   "dur": 2.47,
+   "audio": false,
+   "loop": true,
+   "title": "Loading spinner",
+   "note": "",
+   "bytes": 30636
+  },
+  "micro-3": {
+   "src": "/media/video/micro-3.mp4",
+   "poster": "/media/poster/micro-3.jpg",
+   "w": 720,
+   "h": 720,
+   "dur": 3.07,
+   "audio": false,
+   "loop": true,
+   "title": "Success tick",
+   "note": "",
+   "bytes": 31163
+  },
+  "micro-4": {
+   "src": "/media/video/micro-4.mp4",
+   "poster": "/media/poster/micro-4.jpg",
+   "w": 720,
+   "h": 720,
+   "dur": 4.07,
+   "audio": false,
+   "loop": true,
+   "title": "List to detail",
+   "note": "",
+   "bytes": 88931
+  },
+  "overlay-lower-third": {
+   "src": "/media/video/overlay-lower-third.mp4",
+   "poster": "/media/poster/overlay-lower-third.jpg",
+   "w": 1280,
+   "h": 720,
+   "dur": 8,
+   "audio": false,
+   "loop": true,
+   "title": "Lower third",
+   "note": "",
+   "bytes": 39176
+  },
+  "overlay-topic": {
+   "src": "/media/video/overlay-topic.mp4",
+   "poster": "/media/poster/overlay-topic.jpg",
+   "w": 1280,
+   "h": 720,
+   "dur": 8,
+   "audio": false,
+   "loop": true,
+   "title": "Topic bar",
+   "note": "",
+   "bytes": 38249
+  },
+  "overlay-score": {
+   "src": "/media/video/overlay-score.mp4",
+   "poster": "/media/poster/overlay-score.jpg",
+   "w": 1280,
+   "h": 720,
+   "dur": 10,
+   "audio": false,
+   "loop": true,
+   "title": "Scoreboard",
+   "note": "",
+   "bytes": 55255
+  },
+  "overlay-wipe": {
+   "src": "/media/video/overlay-wipe.mp4",
+   "poster": "/media/poster/overlay-wipe.jpg",
+   "w": 1280,
+   "h": 720,
+   "dur": 2,
+   "audio": false,
+   "loop": true,
+   "title": "Transition wipe",
+   "note": "",
+   "bytes": 102469
+  }
+ },
+ "images": {
+  "karnival-0_6": {
+   "src": "/media/img/karnival-0_6.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "karnival-2_33": {
+   "src": "/media/img/karnival-2_33.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "karnival-7_5": {
+   "src": "/media/img/karnival-7_5.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "karnival-12_68": {
+   "src": "/media/img/karnival-12_68.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "aquaA-0_6": {
+   "src": "/media/img/aquaA-0_6.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "aquaA-5_78": {
+   "src": "/media/img/aquaA-5_78.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "aquaA-14_4": {
+   "src": "/media/img/aquaA-14_4.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "aquaB-4_05": {
+   "src": "/media/img/aquaB-4_05.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "aquaC-7_5": {
+   "src": "/media/img/aquaC-7_5.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "bijakA-5_4": {
+   "src": "/media/img/bijakA-5_4.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "bijakA-12_3": {
+   "src": "/media/img/bijakA-12_3.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "bijakA-19_2": {
+   "src": "/media/img/bijakA-19_2.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "bijakB-10": {
+   "src": "/media/img/bijakB-10.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "bijakC-5_4": {
+   "src": "/media/img/bijakC-5_4.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "affB-1_4": {
+   "src": "/media/img/affB-1_4.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "affB-8_6": {
+   "src": "/media/img/affB-8_6.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "affC-5": {
+   "src": "/media/img/affC-5.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "affC-12_4": {
+   "src": "/media/img/affC-12_4.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "affA-8_9": {
+   "src": "/media/img/affA-8_9.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "cikgu-0_3": {
+   "src": "/media/img/cikgu-0_3.jpg",
+   "w": 960,
+   "h": 540
+  },
+  "cikgu-1_4": {
+   "src": "/media/img/cikgu-1_4.jpg",
+   "w": 960,
+   "h": 540
+  },
+  "cikgu-2_5": {
+   "src": "/media/img/cikgu-2_5.jpg",
+   "w": 960,
+   "h": 540
+  },
+  "cikgu-4_6": {
+   "src": "/media/img/cikgu-4_6.jpg",
+   "w": 960,
+   "h": 540
+  },
+  "logos": {
+   "src": "/media/img/logos.jpg",
+   "w": 1280,
+   "h": 260
+  },
+  "s-M6-1": {
+   "src": "/media/img/s-M6-1.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-M6-2": {
+   "src": "/media/img/s-M6-2.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-M6-3": {
+   "src": "/media/img/s-M6-3.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-M6-4": {
+   "src": "/media/img/s-M6-4.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-M7-1": {
+   "src": "/media/img/s-M7-1.jpg",
+   "w": 512,
+   "h": 512
+  },
+  "s-M7-2": {
+   "src": "/media/img/s-M7-2.jpg",
+   "w": 512,
+   "h": 512
+  },
+  "s-M7-3": {
+   "src": "/media/img/s-M7-3.jpg",
+   "w": 512,
+   "h": 512
+  },
+  "s-M7-4": {
+   "src": "/media/img/s-M7-4.jpg",
+   "w": 512,
+   "h": 512
+  },
+  "s-M7-5": {
+   "src": "/media/img/s-M7-5.jpg",
+   "w": 512,
+   "h": 512
+  },
+  "s-M8-1": {
+   "src": "/media/img/s-M8-1.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-M8-2": {
+   "src": "/media/img/s-M8-2.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-M8-3": {
+   "src": "/media/img/s-M8-3.jpg",
+   "w": 300,
+   "h": 250
+  },
+  "s-M8-4": {
+   "src": "/media/img/s-M8-4.jpg",
+   "w": 728,
+   "h": 90
+  },
+  "s-M8-5": {
+   "src": "/media/img/s-M8-5.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "s-M9-1": {
+   "src": "/media/img/s-M9-1.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "s-M9-2": {
+   "src": "/media/img/s-M9-2.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "s-M9-3": {
+   "src": "/media/img/s-M9-3.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "s-M9-4": {
+   "src": "/media/img/s-M9-4.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-M9-5": {
+   "src": "/media/img/s-M9-5.jpg",
+   "w": 1280,
+   "h": 720
+  },
+  "s-M10-1": {
+   "src": "/media/img/s-M10-1.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-M10-2": {
+   "src": "/media/img/s-M10-2.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-M10-3": {
+   "src": "/media/img/s-M10-3.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-M10-4": {
+   "src": "/media/img/s-M10-4.jpg",
+   "w": 1080,
+   "h": 1080
+  },
+  "s-M11-1": {
+   "src": "/media/img/s-M11-1.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-M11-2": {
+   "src": "/media/img/s-M11-2.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-M11-3": {
+   "src": "/media/img/s-M11-3.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "aquaC-0_6": {
+   "src": "/media/img/aquaC-0_6.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "aquaC-4_05": {
+   "src": "/media/img/aquaC-4_05.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "aquaC-10_95": {
+   "src": "/media/img/aquaC-10_95.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "bijakC-0_8": {
+   "src": "/media/img/bijakC-0_8.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "bijakC-7_7": {
+   "src": "/media/img/bijakC-7_7.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "s-U2-1": {
+   "src": "/media/img/s-U2-1.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-U2-2": {
+   "src": "/media/img/s-U2-2.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-U2-3": {
+   "src": "/media/img/s-U2-3.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-U2-4": {
+   "src": "/media/img/s-U2-4.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-U3-1": {
+   "src": "/media/img/s-U3-1.jpg",
+   "w": 1440,
+   "h": 900
+  },
+  "s-U3-2": {
+   "src": "/media/img/s-U3-2.jpg",
+   "w": 1440,
+   "h": 900
+  },
+  "s-U3-3": {
+   "src": "/media/img/s-U3-3.jpg",
+   "w": 1440,
+   "h": 900
+  },
+  "s-U4-1": {
+   "src": "/media/img/s-U4-1.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-U4-2": {
+   "src": "/media/img/s-U4-2.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-U4-3": {
+   "src": "/media/img/s-U4-3.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-T1-1": {
+   "src": "/media/img/s-T1-1.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-T1-2": {
+   "src": "/media/img/s-T1-2.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-T1-3": {
+   "src": "/media/img/s-T1-3.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-T1-4": {
+   "src": "/media/img/s-T1-4.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-T2-1": {
+   "src": "/media/img/s-T2-1.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-T2-2": {
+   "src": "/media/img/s-T2-2.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-T2-3": {
+   "src": "/media/img/s-T2-3.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-T2-4": {
+   "src": "/media/img/s-T2-4.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-T3-1": {
+   "src": "/media/img/s-T3-1.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-T3-2": {
+   "src": "/media/img/s-T3-2.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-T3-3": {
+   "src": "/media/img/s-T3-3.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-T3-4": {
+   "src": "/media/img/s-T3-4.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-T3-5": {
+   "src": "/media/img/s-T3-5.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "affA-3_6": {
+   "src": "/media/img/affA-3_6.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "affA-10_8": {
+   "src": "/media/img/affA-10_8.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "s-E2-1": {
+   "src": "/media/img/s-E2-1.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-E2-2": {
+   "src": "/media/img/s-E2-2.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-E2-3": {
+   "src": "/media/img/s-E2-3.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "aquaB-0_6": {
+   "src": "/media/img/aquaB-0_6.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "aquaB-2_33": {
+   "src": "/media/img/aquaB-2_33.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "kartunB-1_2": {
+   "src": "/media/img/kartunB-1_2.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "kartunB-21_9": {
+   "src": "/media/img/kartunB-21_9.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "s-E4-1": {
+   "src": "/media/img/s-E4-1.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-E4-2": {
+   "src": "/media/img/s-E4-2.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-E4-3": {
+   "src": "/media/img/s-E4-3.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-E4-4": {
+   "src": "/media/img/s-E4-4.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-E5-1": {
+   "src": "/media/img/s-E5-1.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-E5-2": {
+   "src": "/media/img/s-E5-2.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-E5-3": {
+   "src": "/media/img/s-E5-3.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "kartunC-8_1": {
+   "src": "/media/img/kartunC-8_1.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "kartunC-18_45": {
+   "src": "/media/img/kartunC-18_45.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "kartunA-11_55": {
+   "src": "/media/img/kartunA-11_55.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "kartunA-21_9": {
+   "src": "/media/img/kartunA-21_9.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "kartunB-15": {
+   "src": "/media/img/kartunB-15.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "mag-5": {
+   "src": "/media/img/mag-5.jpg",
+   "w": 960,
+   "h": 540
+  },
+  "mag-47_5": {
+   "src": "/media/img/mag-47_5.jpg",
+   "w": 960,
+   "h": 540
+  },
+  "mag-99_5": {
+   "src": "/media/img/mag-99_5.jpg",
+   "w": 960,
+   "h": 540
+  },
+  "mag-119_5": {
+   "src": "/media/img/mag-119_5.jpg",
+   "w": 960,
+   "h": 540
+  },
+  "poster": {
+   "src": "/media/img/poster.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "poster-a4": {
+   "src": "/media/img/poster-a4.jpg",
+   "w": 990,
+   "h": 1400
+  },
+  "reel-0_4": {
+   "src": "/media/img/reel-0_4.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "reel-3_85": {
+   "src": "/media/img/reel-3_85.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "reel-9_6": {
+   "src": "/media/img/reel-9_6.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "s-G2-1": {
+   "src": "/media/img/s-G2-1.jpg",
+   "w": 1280,
+   "h": 720
+  },
+  "s-G3-1": {
+   "src": "/media/img/s-G3-1.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "s-G3-2": {
+   "src": "/media/img/s-G3-2.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "s-G3-3": {
+   "src": "/media/img/s-G3-3.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "s-G3-4": {
+   "src": "/media/img/s-G3-4.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "s-G5-1": {
+   "src": "/media/img/s-G5-1.jpg",
+   "w": 1600,
+   "h": 1132
+  },
+  "s-G5-2": {
+   "src": "/media/img/s-G5-2.jpg",
+   "w": 1600,
+   "h": 1132
+  },
+  "s-G5-3": {
+   "src": "/media/img/s-G5-3.jpg",
+   "w": 1486,
+   "h": 1600
+  },
+  "before-after": {
+   "src": "/media/img/before-after.jpg",
+   "w": 1280,
+   "h": 420
+  },
+  "kartunC-28_8": {
+   "src": "/media/img/kartunC-28_8.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "kartunA-28_8": {
+   "src": "/media/img/kartunA-28_8.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "kartunB-28_8": {
+   "src": "/media/img/kartunB-28_8.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "s-R5-1": {
+   "src": "/media/img/s-R5-1.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-R5-2": {
+   "src": "/media/img/s-R5-2.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-R5-3": {
+   "src": "/media/img/s-R5-3.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-R6-1": {
+   "src": "/media/img/s-R6-1.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-R6-2": {
+   "src": "/media/img/s-R6-2.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-R6-3": {
+   "src": "/media/img/s-R6-3.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-P2-1": {
+   "src": "/media/img/s-P2-1.jpg",
+   "w": 1132,
+   "h": 1600
+  },
+  "s-P2-2": {
+   "src": "/media/img/s-P2-2.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "s-P3-1": {
+   "src": "/media/img/s-P3-1.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-P3-2": {
+   "src": "/media/img/s-P3-2.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-P3-3": {
+   "src": "/media/img/s-P3-3.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-P3-4": {
+   "src": "/media/img/s-P3-4.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-P4-1": {
+   "src": "/media/img/s-P4-1.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-P4-2": {
+   "src": "/media/img/s-P4-2.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-P4-3": {
+   "src": "/media/img/s-P4-3.jpg",
+   "w": 900,
+   "h": 1600
+  },
+  "s-P5-1": {
+   "src": "/media/img/s-P5-1.jpg",
+   "w": 1132,
+   "h": 1600
+  },
+  "s-P5-2": {
+   "src": "/media/img/s-P5-2.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "s-P5-3": {
+   "src": "/media/img/s-P5-3.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "s-P5-4": {
+   "src": "/media/img/s-P5-4.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "s-P5-5": {
+   "src": "/media/img/s-P5-5.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "kartunC-4_65": {
+   "src": "/media/img/kartunC-4_65.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "board-book": {
+   "src": "/media/img/board-book.jpg",
+   "w": 1400,
+   "h": 788
+  },
+  "board-aqua-0": {
+   "src": "/media/img/board-aqua-0.jpg",
+   "w": 788,
+   "h": 1400
+  },
+  "aquaA-1": {
+   "src": "/media/img/aquaA-1.jpg",
+   "w": 540,
+   "h": 960
+  },
+  "board-aqua-2": {
+   "src": "/media/img/board-aqua-2.jpg",
+   "w": 788,
+   "h": 1400
+  },
+  "after-1": {
+   "src": "/media/img/after-1.jpg",
+   "w": 1280,
+   "h": 720
+  },
+  "before-1": {
+   "src": "/media/img/before-1.jpg",
+   "w": 1280,
+   "h": 720
+  },
+  "after-2": {
+   "src": "/media/img/after-2.jpg",
+   "w": 1280,
+   "h": 720
+  },
+  "before-2": {
+   "src": "/media/img/before-2.jpg",
+   "w": 1280,
+   "h": 720
+  },
+  "after-3": {
+   "src": "/media/img/after-3.jpg",
+   "w": 1280,
+   "h": 720
+  },
+  "before-3": {
+   "src": "/media/img/before-3.jpg",
+   "w": 1280,
+   "h": 720
+  },
+  "after-4": {
+   "src": "/media/img/after-4.jpg",
+   "w": 1280,
+   "h": 720
+  },
+  "before-4": {
+   "src": "/media/img/before-4.jpg",
+   "w": 1280,
+   "h": 720
+  },
+  "sticker-yes": {
+   "src": "/media/img/sticker-yes.gif",
+   "w": 512,
+   "h": 512
+  },
+  "sticker-lets-go": {
+   "src": "/media/img/sticker-lets-go.gif",
+   "w": 512,
+   "h": 512
+  },
+  "sticker-thumbs-up": {
+   "src": "/media/img/sticker-thumbs-up.gif",
+   "w": 512,
+   "h": 512
+  },
+  "sticker-star": {
+   "src": "/media/img/sticker-star.gif",
+   "w": 512,
+   "h": 512
+  },
+  "sticker-hmm": {
+   "src": "/media/img/sticker-hmm.gif",
+   "w": 512,
+   "h": 512
+  },
+  "pack-poster": {
+   "src": "/media/img/pack-poster.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "pack-carousel-1": {
+   "src": "/media/img/pack-carousel-1.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "pack-carousel-2": {
+   "src": "/media/img/pack-carousel-2.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "pack-carousel-3": {
+   "src": "/media/img/pack-carousel-3.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "pack-carousel-4": {
+   "src": "/media/img/pack-carousel-4.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "pack-carousel-5": {
+   "src": "/media/img/pack-carousel-5.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "pack-story": {
+   "src": "/media/img/pack-story.jpg",
+   "w": 788,
+   "h": 1400
+  },
+  "pack-thumb": {
+   "src": "/media/img/pack-thumb.jpg",
+   "w": 1280,
+   "h": 720
+  },
+  "deck-1": {
+   "src": "/media/img/deck-1.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "deck-2": {
+   "src": "/media/img/deck-2.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "deck-3": {
+   "src": "/media/img/deck-3.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "deck-4": {
+   "src": "/media/img/deck-4.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "deck-5": {
+   "src": "/media/img/deck-5.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "deck-6": {
+   "src": "/media/img/deck-6.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "deck-7": {
+   "src": "/media/img/deck-7.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "deck-8": {
+   "src": "/media/img/deck-8.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "deck-9": {
+   "src": "/media/img/deck-9.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "deck-10": {
+   "src": "/media/img/deck-10.jpg",
+   "w": 1600,
+   "h": 900
+  },
+  "carousel-plants-1": {
+   "src": "/media/img/carousel-plants-1.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "carousel-plants-2": {
+   "src": "/media/img/carousel-plants-2.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "carousel-plants-3": {
+   "src": "/media/img/carousel-plants-3.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "carousel-plants-4": {
+   "src": "/media/img/carousel-plants-4.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "carousel-plants-5": {
+   "src": "/media/img/carousel-plants-5.jpg",
+   "w": 1080,
+   "h": 1350
+  },
+  "carousel-plants-6": {
+   "src": "/media/img/carousel-plants-6.jpg",
+   "w": 1080,
+   "h": 1350
+  }
+ },
+ "cards": {
+  "M1": {
+   "films": [
+    "karnival"
+   ],
+   "images": [],
+   "files": [],
+   "thumb": "/media/thumb/M1.jpg"
+  },
+  "M2": {
+   "films": [
+    "aqua-a",
+    "aqua-b",
+    "aqua-c"
+   ],
+   "images": [],
+   "files": [],
+   "thumb": "/media/thumb/M2.jpg"
+  },
+  "M3": {
+   "films": [
+    "bijak-a",
+    "bijak-b",
+    "bijak-c"
+   ],
+   "images": [],
+   "files": [],
+   "thumb": "/media/thumb/M3.jpg"
+  },
+  "M4": {
+   "films": [
+    "book-b",
+    "book-c",
+    "book-a"
+   ],
+   "images": [],
+   "files": [],
+   "thumb": "/media/thumb/M4.jpg"
+  },
+  "M5": {
+   "films": [
+    "intro-wide",
+    "intro-tall"
+   ],
+   "images": [
+    {
+     "key": "logos",
+     "caption": "The logo on light, on dark, in one colour, and the mark alone"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/M5.jpg"
+  },
+  "M6": {
+   "films": [],
+   "images": [
+    {
+     "key": "s-M6-1",
+     "caption": "The problem"
+    },
+    {
+     "key": "s-M6-2",
+     "caption": "Step 1: scan"
+    },
+    {
+     "key": "s-M6-3",
+     "caption": "Step 3: return, star"
+    },
+    {
+     "key": "s-M6-4",
+     "caption": "The end frame"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/M6.jpg"
+  },
+  "M7": {
+   "films": [],
+   "images": [
+    {
+     "key": "sticker-yes",
+     "caption": "Yes!"
+    },
+    {
+     "key": "sticker-lets-go",
+     "caption": "Let's go!"
+    },
+    {
+     "key": "sticker-thumbs-up",
+     "caption": "Thumbs-up"
+    },
+    {
+     "key": "sticker-star",
+     "caption": "A star"
+    },
+    {
+     "key": "sticker-hmm",
+     "caption": "Hmm…"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/M7.jpg"
+  },
+  "M8": {
+   "films": [],
+   "images": [
+    {
+     "key": "s-M8-1",
+     "caption": "Digital billboard, 1920x1080"
+    },
+    {
+     "key": "s-M8-2",
+     "caption": "Vertical screen, 1080x1920"
+    },
+    {
+     "key": "s-M8-3",
+     "caption": "Web banner, 300x250"
+    },
+    {
+     "key": "s-M8-4",
+     "caption": "Web banner, 728x90"
+    },
+    {
+     "key": "s-M8-5",
+     "caption": "Paid social, 1080x1350"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/M8.jpg"
+  },
+  "M9": {
+   "films": [],
+   "images": [
+    {
+     "key": "pack-poster",
+     "caption": "Poster, 1080x1350"
+    },
+    {
+     "key": "pack-carousel-1",
+     "caption": "Carousel slide 1 of 5"
+    },
+    {
+     "key": "pack-carousel-2",
+     "caption": "Carousel slide 2 of 5"
+    },
+    {
+     "key": "pack-carousel-3",
+     "caption": "Carousel slide 3 of 5"
+    },
+    {
+     "key": "pack-carousel-4",
+     "caption": "Carousel slide 4 of 5"
+    },
+    {
+     "key": "pack-carousel-5",
+     "caption": "Carousel slide 5 of 5"
+    },
+    {
+     "key": "pack-story",
+     "caption": "Story, with sticker space"
+    },
+    {
+     "key": "pack-thumb",
+     "caption": "Thumbnail, 1280x720"
+    }
+   ],
+   "files": [
+    {
+     "href": "/media/files/campaign-poster-a4.pdf",
+     "label": "The poster (A4 PDF)",
+     "bytes": 2082575
+    }
+   ],
+   "thumb": "/media/thumb/M9.jpg"
+  },
+  "M10": {
+   "films": [],
+   "images": [
+    {
+     "key": "s-M10-1",
+     "caption": "Opening: lamps being lit"
+    },
+    {
+     "key": "s-M10-2",
+     "caption": "The moon rises"
+    },
+    {
+     "key": "s-M10-3",
+     "caption": "End frame, sign-off"
+    },
+    {
+     "key": "s-M10-4",
+     "caption": "The square still, delivered"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/M10.jpg"
+  },
+  "M11": {
+   "films": [
+    "hook-question",
+    "hook-free",
+    "hook-rocket"
+   ],
+   "images": [
+    {
+     "key": "s-M11-1",
+     "caption": "Hook 1: a question"
+    },
+    {
+     "key": "s-M11-2",
+     "caption": "Hook 2: the free offer"
+    },
+    {
+     "key": "s-M11-3",
+     "caption": "Hook 3: the rocket speaks"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/M11.jpg"
+  },
+  "U1": {
+   "films": [
+    "aqua-c",
+    "bijak-c"
+   ],
+   "images": [],
+   "files": [],
+   "thumb": "/media/thumb/U1.jpg"
+  },
+  "U2": {
+   "films": [
+    "micro-1",
+    "micro-2",
+    "micro-3",
+    "micro-4"
+   ],
+   "images": [
+    {
+     "key": "s-U2-1",
+     "caption": "Borrow button: rest, pressed, released"
+    },
+    {
+     "key": "s-U2-2",
+     "caption": "Spinner: three moments"
+    },
+    {
+     "key": "s-U2-3",
+     "caption": "Success tick: waiting, pop, done"
+    },
+    {
+     "key": "s-U2-4",
+     "caption": "List to detail transition"
+    }
+   ],
+   "files": [],
+   "demo": {
+    "href": "/demos/booknest-micro/",
+    "label": "Open the live spec page"
+   },
+   "thumb": "/media/thumb/U2.jpg"
+  },
+  "U3": {
+   "films": [],
+   "images": [
+    {
+     "key": "s-U3-1",
+     "caption": "Start: outline draws itself"
+    },
+    {
+     "key": "s-U3-2",
+     "caption": "Middle: screen filled, first feature"
+    },
+    {
+     "key": "s-U3-3",
+     "caption": "End: all three features"
+    }
+   ],
+   "files": [],
+   "demo": {
+    "href": "/demos/booknest-scroll.html",
+    "label": "Open the live page"
+   },
+   "thumb": "/media/thumb/U3.jpg"
+  },
+  "U4": {
+   "films": [],
+   "images": [
+    {
+     "key": "s-U4-1",
+     "caption": "Opening: tap Borrow"
+    },
+    {
+     "key": "s-U4-2",
+     "caption": "Key action: scan the code"
+    },
+    {
+     "key": "s-U4-3",
+     "caption": "End frame: borrowed, due date"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/U4.jpg"
+  },
+  "T1": {
+   "films": [],
+   "images": [
+    {
+     "key": "s-T1-1",
+     "caption": "Opening image: the source"
+    },
+    {
+     "key": "s-T1-2",
+     "caption": "First credit, the valley"
+    },
+    {
+     "key": "s-T1-3",
+     "caption": "The title itself"
+    },
+    {
+     "key": "s-T1-4",
+     "caption": "Final frame, last credit"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/T1.jpg"
+  },
+  "T2": {
+   "films": [
+    "overlay-lower-third",
+    "overlay-topic",
+    "overlay-score",
+    "overlay-wipe"
+   ],
+   "images": [
+    {
+     "key": "s-T2-1",
+     "caption": "Lower third"
+    },
+    {
+     "key": "s-T2-2",
+     "caption": "Topic bar"
+    },
+    {
+     "key": "s-T2-3",
+     "caption": "Scoreboard, 3 to 2"
+    },
+    {
+     "key": "s-T2-4",
+     "caption": "Wipe, caught mid-way"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/T2.jpg"
+  },
+  "T3": {
+   "films": [
+    "stage-loop"
+   ],
+   "images": [
+    {
+     "key": "s-T3-1",
+     "caption": "Ribbon Wave (rendered loop)"
+    },
+    {
+     "key": "s-T3-2",
+     "caption": "Sunburst Star"
+    },
+    {
+     "key": "s-T3-3",
+     "caption": "Award constellations"
+    },
+    {
+     "key": "s-T3-4",
+     "caption": "Award rosettes"
+    },
+    {
+     "key": "s-T3-5",
+     "caption": "Gold Fall"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/T3.jpg"
+  },
+  "T4": {
+   "films": [
+    "book-a"
+   ],
+   "images": [],
+   "files": [],
+   "thumb": "/media/thumb/T4.jpg"
+  },
+  "T5": {
+   "films": [],
+   "images": [],
+   "files": []
+  },
+  "E2": {
+   "films": [],
+   "images": [
+    {
+     "key": "s-E2-1",
+     "caption": "Opening: the reading log"
+    },
+    {
+     "key": "s-E2-2",
+     "caption": "Chart at its fullest"
+    },
+    {
+     "key": "s-E2-3",
+     "caption": "End frame, the point"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/E2.jpg"
+  },
+  "E3": {
+   "films": [
+    "aqua-b",
+    "kartun-b"
+   ],
+   "images": [],
+   "files": [],
+   "thumb": "/media/thumb/E3.jpg"
+  },
+  "E4": {
+   "films": [],
+   "images": [
+    {
+     "key": "deck-1",
+     "caption": "Slide 1 of 10"
+    },
+    {
+     "key": "deck-2",
+     "caption": "Slide 2 of 10"
+    },
+    {
+     "key": "deck-3",
+     "caption": "Slide 3 of 10"
+    },
+    {
+     "key": "deck-4",
+     "caption": "Slide 4 of 10"
+    },
+    {
+     "key": "deck-5",
+     "caption": "Slide 5 of 10"
+    },
+    {
+     "key": "deck-6",
+     "caption": "Slide 6 of 10"
+    },
+    {
+     "key": "deck-7",
+     "caption": "Slide 7 of 10"
+    },
+    {
+     "key": "deck-8",
+     "caption": "Slide 8 of 10"
+    },
+    {
+     "key": "deck-9",
+     "caption": "Slide 9 of 10"
+    },
+    {
+     "key": "deck-10",
+     "caption": "Slide 10 of 10"
+    }
+   ],
+   "files": [
+    {
+     "href": "/media/files/booknest-pitch-deck.pptx",
+     "label": "The deck (.pptx, editable)",
+     "bytes": 436821
+    },
+    {
+     "href": "/media/files/booknest-pitch-deck.pdf",
+     "label": "The deck (PDF)",
+     "bytes": 2278677
+    }
+   ],
+   "thumb": "/media/thumb/E4.jpg"
+  },
+  "E5": {
+   "films": [],
+   "images": [
+    {
+     "key": "s-E5-1",
+     "caption": "The route starts"
+    },
+    {
+     "key": "s-E5-2",
+     "caption": "Stop 2, lit up"
+    },
+    {
+     "key": "s-E5-3",
+     "caption": "The whole route"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/E5.jpg"
+  },
+  "S1": {
+   "films": [
+    "kartun-c",
+    "kartun-a",
+    "kartun-b"
+   ],
+   "images": [],
+   "files": [],
+   "thumb": "/media/thumb/S1.jpg"
+  },
+  "S2": {
+   "films": [
+    "routine"
+   ],
+   "images": [],
+   "files": [],
+   "thumb": "/media/thumb/S2.jpg"
+  },
+  "G1": {
+   "films": [
+    "reel"
+   ],
+   "images": [
+    {
+     "key": "poster",
+     "caption": "Feed image"
+    },
+    {
+     "key": "poster-a4",
+     "caption": "A4"
+    }
+   ],
+   "files": [
+    {
+     "href": "/media/files/reading-campaign-poster-a4.pdf",
+     "label": "The poster (A4 PDF)",
+     "bytes": 1210088
+    }
+   ],
+   "thumb": "/media/thumb/G1.jpg"
+  },
+  "G2": {
+   "films": [],
+   "images": [
+    {
+     "key": "s-G2-1",
+     "caption": "Thumbnail, 1280x720"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/G2.jpg"
+  },
+  "G3": {
+   "films": [],
+   "images": [
+    {
+     "key": "carousel-plants-1",
+     "caption": "Slide 1 of 6"
+    },
+    {
+     "key": "carousel-plants-2",
+     "caption": "Slide 2 of 6"
+    },
+    {
+     "key": "carousel-plants-3",
+     "caption": "Slide 3 of 6"
+    },
+    {
+     "key": "carousel-plants-4",
+     "caption": "Slide 4 of 6"
+    },
+    {
+     "key": "carousel-plants-5",
+     "caption": "Slide 5 of 6"
+    },
+    {
+     "key": "carousel-plants-6",
+     "caption": "Slide 6 of 6"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/G3.jpg"
+  },
+  "G4": {
+   "films": [],
+   "images": [
+    {
+     "key": "logos",
+     "caption": "On light, on dark, in one colour, and the mark alone"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/G4.jpg"
+  },
+  "G5": {
+   "films": [],
+   "images": [
+    {
+     "key": "s-G5-1",
+     "caption": "One certificate, full page"
+    },
+    {
+     "key": "s-G5-2",
+     "caption": "The same, another name"
+    },
+    {
+     "key": "s-G5-3",
+     "caption": "All six, one sheet"
+    }
+   ],
+   "files": [
+    {
+     "href": "/media/files/certificate-sample.pdf",
+     "label": "One certificate (A4 PDF)",
+     "bytes": 29672
+    }
+   ],
+   "thumb": "/media/thumb/G5.jpg"
+  },
+  "R1": {
+   "films": [
+    "routine"
+   ],
+   "images": [],
+   "files": [],
+   "compare": true,
+   "thumb": "/media/thumb/R1.jpg"
+  },
+  "R2": {
+   "films": [
+    "routine"
+   ],
+   "images": [],
+   "files": [],
+   "thumb": "/media/thumb/R2.jpg"
+  },
+  "R3": {
+   "films": [
+    "intro-wide",
+    "intro-tall"
+   ],
+   "images": [],
+   "files": [],
+   "thumb": "/media/thumb/R3.jpg"
+  },
+  "R4": {
+   "films": [
+    "kartun-c",
+    "kartun-a",
+    "kartun-b"
+   ],
+   "images": [],
+   "files": [],
+   "thumb": "/media/thumb/R4.jpg"
+  },
+  "R5": {
+   "films": [
+    "karnival",
+    "karnival-en"
+   ],
+   "images": [
+    {
+     "key": "s-R5-1",
+     "caption": "0.6 s: the hook"
+    },
+    {
+     "key": "s-R5-2",
+     "caption": "7.5 s: free entry"
+    },
+    {
+     "key": "s-R5-3",
+     "caption": "12.7 s: the end card"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/R5.jpg"
+  },
+  "R6": {
+   "films": [
+    "karnival"
+   ],
+   "images": [
+    {
+     "key": "s-R6-1",
+     "caption": "The opening"
+    },
+    {
+     "key": "s-R6-2",
+     "caption": "The middle: the date"
+    },
+    {
+     "key": "s-R6-3",
+     "caption": "The end card"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/R6.jpg"
+  },
+  "P1": {
+   "films": [],
+   "images": [],
+   "files": [],
+   "compare": true,
+   "thumb": "/media/thumb/P1.jpg"
+  },
+  "P2": {
+   "films": [],
+   "images": [
+    {
+     "key": "s-P2-1",
+     "caption": "The A4 case study page"
+    },
+    {
+     "key": "s-P2-2",
+     "caption": "The 1080x1350 feed version"
+    }
+   ],
+   "files": [
+    {
+     "href": "/media/files/case-study-a4.pdf",
+     "label": "The case study (A4 PDF)",
+     "bytes": 921222
+    }
+   ],
+   "thumb": "/media/thumb/P2.jpg"
+  },
+  "P3": {
+   "films": [
+    "showreel-wide",
+    "showreel-tall"
+   ],
+   "images": [
+    {
+     "key": "s-P3-1",
+     "caption": "16:9: three films at once"
+    },
+    {
+     "key": "s-P3-2",
+     "caption": "16:9: one vertical film"
+    },
+    {
+     "key": "s-P3-3",
+     "caption": "16:9: the end card"
+    },
+    {
+     "key": "s-P3-4",
+     "caption": "9:16: one film a bar"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/P3.jpg"
+  },
+  "P4": {
+   "films": [],
+   "images": [
+    {
+     "key": "s-P4-1",
+     "caption": "The brief in one line"
+    },
+    {
+     "key": "s-P4-2",
+     "caption": "Three boards, one chosen"
+    },
+    {
+     "key": "s-P4-3",
+     "caption": "The finished film in place"
+    }
+   ],
+   "files": [],
+   "thumb": "/media/thumb/P4.jpg"
+  },
+  "P5": {
+   "films": [
+    "logo-anim"
+   ],
+   "images": [
+    {
+     "key": "s-P5-1",
+     "caption": "One-page brand guide"
+    },
+    {
+     "key": "s-P5-2",
+     "caption": "Logo on Seed Paper"
+    },
+    {
+     "key": "s-P5-3",
+     "caption": "Plant of the week post"
+    },
+    {
+     "key": "s-P5-4",
+     "caption": "Club day post"
+    },
+    {
+     "key": "s-P5-5",
+     "caption": "Logo animation, end frame"
+    }
+   ],
+   "files": [
+    {
+     "href": "/media/files/brand-guide.pdf",
+     "label": "The brand guide (PDF)",
+     "bytes": 587885
+    }
+   ],
+   "thumb": "/media/thumb/P5.jpg"
+  }
+ },
+ "compare": [
+  {
+   "before": "before-1",
+   "after": "after-1",
+   "label": "A playful opening"
+  },
+  {
+   "before": "before-2",
+   "after": "after-2",
+   "label": "Tidy-up, done"
+  },
+  {
+   "before": "before-3",
+   "after": "after-3",
+   "label": "Getting dressed"
+  },
+  {
+   "before": "before-4",
+   "after": "after-4",
+   "label": "The prayer"
+  }
+ ]
+}
